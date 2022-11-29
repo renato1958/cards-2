@@ -30,7 +30,6 @@ section, p {
 	margin: auto;
 	cursor: pointer;
 	perspective: 2000px;
-	box-shadow: 3px 3px 6px rgba(100, 100, 100, .8);
 }
 
 .flip-card__inner {
@@ -67,4 +66,25 @@ section, p {
 
 .flip-card__caption p {
 	margin-top: 20px;
+}
+
+
+@media(prefers-color-scheme: dark) {
+	.flip-card__caption {
+		background-color: blue;
+	}
+
+	.flip-card {
+		box-shadow: 3px 3px 10px rgba(220, 220, 220, .8);
+	}
+}
+
+@media(prefers-color-scheme: light) {
+	.flip-card__caption {
+		background-color: aqua;
+	}
+
+	.flip-card {
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+	}
 }
