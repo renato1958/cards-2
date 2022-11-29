@@ -23,3 +23,16 @@ section, p {
 	margin: 0 auto;
 	display: flex;
 }
+
+.flip-card {
+	width: 400px;
+	height: 533px;
+	margin: auto;
+}
+
+.flip-card__inner {
+	border: 2px solid blue; /* DEBUG */
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
