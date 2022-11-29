@@ -1,0 +1,17 @@
+:root {
+	color-scheme: light dark;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+section {
+	margin: 0;
+}
