@@ -88,3 +88,10 @@ section, p {
 		box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
 	}
 }
+
+@media(hover: none) {
+  .flip-card:active .flip-card__inner,
+  .flip-card:hover .flip-card__inner {
+    transform: rotateY(0deg);
+  }
+}
